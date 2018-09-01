@@ -3,9 +3,8 @@
 **A lab report by Christopher Caulfield*
 
 ## Part A. Set Up a Breadboard
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/board.png" height="50%" width="50%" >
 
-![Board](https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/board.png){:height="50%" width="50%"}
-<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/board.png" height="100px" width="400px" >
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
