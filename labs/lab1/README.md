@@ -4,7 +4,7 @@
 
 ## Part A. Set Up a Breadboard
 
-![Board](https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/board.png) <!-- .element height="50%" width="50%" -->
+![Board](https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/board.png){:height="50%" width="50%"}
 
 ## Part B. Manually Blink a LED
 
