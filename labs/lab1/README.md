@@ -8,19 +8,36 @@
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+Forgive me, I am very color blind, but I believe the colors are: Red, Red, Black, Black, Brown
  
 **b. What do you have to do to light your LED?**
-
+To light my LED I needed to create a circuit similar to shown in: https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_led_resistor_diagram.png. Connecting a button is the trigger point for the LED to light up.
 
 ## Part C. Blink a LED using Arduino
+
 
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+To make the LED blink the following code was changed:
+```
+pinMode(9, OUTPUT);
+```
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+Rate of blinking is changed by inputing a number in the delay() function. You could also randomize this using the random() function  
+```
+void loop() {
+  digitalWrite(9, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(750);                       // wait for a second
+  digitalWrite(9, LOW);    // turn the LED off by making the voltage LOW
+  delay(750);                       // wait for a second
+}
+```
+
 
 **c. What circuit element would you want to add to protect the board and external LED?**
+The resistor can be added as a circuit element to reduce the current flow, protecting the board and LED.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
@@ -31,13 +48,16 @@
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/board.png" height="50%" width="50%">
 
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+Yes, turning the "wiper" determines how much resistence is being genereated to the circuit.
+<img src="https://i0.wp.com/rntlab.com/wp-content/uploads/2016/02/Fig.-4.png?zoom=2&resize=460%2C181&ssl=1" height="50%" width="50%" >
 
+Source: https://randomnerdtutorials.com/electronics-basics-how-a-potentiometer-works/
 
 ## Part E. Fade an LED using Arduino
 
