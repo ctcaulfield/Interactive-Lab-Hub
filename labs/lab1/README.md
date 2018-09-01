@@ -62,6 +62,24 @@ Source: https://randomnerdtutorials.com/electronics-basics-how-a-potentiometer-w
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+All code is the same, the only important chance to make is   ```analogWrite(led, random(1, 255));```
+
+```
+int led = 3;           // the PWM pin the LED is attached to
+
+// the setup routine runs once when you press reset:
+void setup() {
+  // declare pin 3 to be an output:
+  pinMode(led, OUTPUT);
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  //set brightness value to random  
+  analogWrite(led, random(1, 255));
+  delay(1000);
+}
+```
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
