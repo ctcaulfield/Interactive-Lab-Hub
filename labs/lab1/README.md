@@ -82,11 +82,16 @@ void loop() {
 ```
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+analogWrite() writes a "Pulse-Width Modulated" (PWM) wave signal to a pin, providing varying brightnesses. On the other hand digitalWrite() sets the pin to a HIGH or LOW value at stays at that.
 
+Sources:
+digitalWrite() documentation: https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/
+analogWrite() documentation: https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/
 
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+For my device I decided to take apart an old bluetooth audio reciever. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
