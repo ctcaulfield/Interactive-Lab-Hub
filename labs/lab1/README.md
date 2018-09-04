@@ -11,7 +11,7 @@
 Forgive me, I am very color blind, but I believe the colors are: Red, Red, Black, Black, Brown
  
 **b. What do you have to do to light your LED?**
-To light my LED I needed to create a circuit similar to shown in: https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_led_resistor_diagram.png. Connecting a button is the trigger point for the LED to light up.
+To light my LED I needed to create a circuit similar to shown: [here]https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/docs/button_led_resistor_diagram.png. Connecting a button is the trigger point for the LED to light up.
 
 ## Part C. Blink a LED using Arduino
 
@@ -40,15 +40,16 @@ void loop() {
 The resistor can be added as a circuit element to reduce the current flow, protecting the board and LED.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+When I set the delay around 20 milliseconds, it became difficult to visually see it was still blinking. The way I prove myself is by knowing I have a delay() function set meaning it's still technically blinking!
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-
+[Link to repository]https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/lab1_partC/lab1_partC.ino
 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/board.png" height="50%" width="50%">
+YouTube demo of blinking LED:[here]https://www.youtube.com/watch?v=cBjIbLcMPrw&feature=youtu.be
 
 
 ## Part D. Manually fade an LED
@@ -80,6 +81,7 @@ void loop() {
   delay(1000);
 }
 ```
+YouTube demo of fade using Arduino:[here]https://www.youtube.com/watch?v=NJVencvOdQg&feature=youtu.be
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 analogWrite() writes a "Pulse-Width Modulated" (PWM) wave signal to a pin, providing varying brightnesses. On the other hand digitalWrite() sets the pin to a HIGH or LOW value at stays at that.
@@ -91,22 +93,27 @@ analogWrite() documentation: https://www.arduino.cc/reference/en/language/functi
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
-For my device I decided to take apart an old bluetooth audio reciever. 
+For my device I decided to take apart an old bluetooth audio reciever!
+*Important Note - I meant to write microcontroller instead of microprocessor!* 
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/diagram.jpg" height="50%" width="50%" >
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+There is computation happening inside - within the microcontroller. It recieves audio from a paired bluetooth device and sends it through a headset which requires an AUX input. The device also has a microphone so it recieves sound and sends the audio to the paired device via bluetooth.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+There are 5 buttons on the device. For skip, go back, pause play, volume up, and volume down. When the user clicks on a button it triggered to the microcontroller.  
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+The device is powered via a micro USB port. The devices contains a small battery which holds the provided power from the micro USB. The voltage used throughout the system is 1.5V. 
 
 **d. Is information stored in your device? Where? How?**
+I believe information is stored on the device and this is held within the microcontroller's RAM. Information is send to the microcontroller via bluetooth, which can then be stored.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
+The device already contains an LED, but this did not stop me from adding another one. Unfortunately, the device is very compact and it is hard to attach additional items. Thankfully I was able to get the right circuit by connecting the LED directly ontop of the current LED.
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
-
-**Include any schematics or photos in your lab write-up.**
+Demo of Frankenlight:[here]https://www.youtube.com/watch?v=2aChkfvMSjs&feature=youtu.be
