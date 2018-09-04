@@ -94,8 +94,12 @@ analogWrite() documentation: https://www.arduino.cc/reference/en/language/functi
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 For my device I decided to take apart an old bluetooth audio reciever!
-*Important Note - I meant to write microcontroller instead of microprocessor!* 
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/frank_back.JPG" height="50%" width="50%" >
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/frank_front.JPG" height="50%" width="50%" >
 <img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab1/media/diagram.jpg" height="50%" width="50%" >
+*Important Note - I meant to write microcontroller instead of microprocessor!* 
+
+
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 There is computation happening inside - within the microcontroller. It recieves audio from a paired bluetooth device and sends it through a headset which requires an AUX input. The device also has a microphone so it recieves sound and sends the audio to the paired device via bluetooth.
