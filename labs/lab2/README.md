@@ -17,8 +17,7 @@ E) [Make your own timer](#part-e-make-your-own-timer)
 Include your responses to the bold questions on your own fork of [this lab report template](https://github.com/FAR-Lab/IDD-Fa18-Lab2). Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
 
 ## Part A. Solder your LCD panel
-
-[here]https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab2/media/IMG_9419.jpeg
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab2/media/IMG_9419.jpeg" height="50%" width="50%" >
 
 ## Part B. Writing to the LCD
  
@@ -82,7 +81,6 @@ Just add "/2"
  
 **b. What song is playing?**
 Star Wars
-https://www.youtube.com/watch?v=c2OlojW7ZOo&feature=youtu.be
 
 ## Part E. Make your own timer
 
