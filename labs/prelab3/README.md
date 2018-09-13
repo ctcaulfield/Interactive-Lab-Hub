@@ -1,3 +1,4 @@
 # Pre-Lab 3
  
- <img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab2/media/IMG_9419.jpeg" height="50%" width="50%" >
+ <img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/prelab3/media/IMG_5809.jpeg" height="100%" width="100%" >
+ <img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/prelab3/media/IMG_5810.jpeg" height="100%" width="100%" >
