@@ -1,6 +1,6 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by Christopher Caulfield*
 
 ## In The Report
 
@@ -14,6 +14,8 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
  Range: 0-1023
  
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
+10 bits
+Source: https://learn.sparkfun.com/tutorials/analog-to-digital-conversion
 
 ## Part B. RGB LED
 
@@ -24,12 +26,22 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
 **a. What voltage values do you see from your force sensor?**
-Voltage value seen from sensor: ranging from 0 to 520
+The value being printed from the sensor ranges from 0 to 1023, depending how much force is applied to the sensor.
+Since, I used a 10K resistor the voltage was 4.9V. 
+Source: https://learn.adafruit.com/force-sensitive-resistor-fsr/using-an-fsr
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+The relationship is non-linear because it depends on the force applied. Here is an example on a log/log graph.
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/000/429/original/force___flex_resistanceforce.jpg?1396762946
+" height="50%" width="50%" >
+
+Source: https://learn.adafruit.com/force-sensitive-resistor-fsr/overview
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
-My solution was to take the force output (0 to ~520) divided by 2.
+Since my output for the force sensor is 0 to 1023 and RGB is 0 to 255 I used.
+```
+map(forceValue, 0, 1023, 0, 255);
+```
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
