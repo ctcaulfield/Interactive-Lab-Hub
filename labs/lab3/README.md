@@ -32,8 +32,7 @@ Source: https://learn.adafruit.com/force-sensitive-resistor-fsr/using-an-fsr
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 The relationship is non-linear because it depends on the force applied. Here is an example on a log/log graph.
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/000/429/original/force___flex_resistanceforce.jpg?1396762946
-" height="50%" width="50%" >
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/000/429/original/force___flex_resistanceforce.jpg?1396762946" height="50%" width="50%" >
 
 Source: https://learn.adafruit.com/force-sensitive-resistor-fsr/overview
 
