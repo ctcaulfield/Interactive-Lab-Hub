@@ -104,3 +104,4 @@ https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab3/modifie
 ### 3. Create your data logger!
 **a. Record and upload a short demo video of your logger in action.**
 https://youtu.be/9F8ydHaDUPs (Wait until the end, I dropped the ball on my camera! Whoops!)
+Code: https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab3/datalogger/datalogger.ino
