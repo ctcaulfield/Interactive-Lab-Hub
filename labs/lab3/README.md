@@ -49,7 +49,7 @@ Linear realtionship because the more voltage results in more resistance. Ohm's L
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
-<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab3/media/output1.png" height="50%" width="50%" >
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab3/media/output1.png">
 
 ### 3. IR Proximity Sensor
 
@@ -97,7 +97,9 @@ https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab3/modifie
 
 ### 2. Design your logger
 **a. Insert here a copy of your final state diagram.**
-<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab3/media/flow.png" height="50%" width="50%" >
+
+
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab3/media/flow.png" height="75%" width="75%" >
 
 ### 3. Create your data logger!
 **a. Record and upload a short demo video of your logger in action.**
