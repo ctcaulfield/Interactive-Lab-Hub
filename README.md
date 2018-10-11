@@ -12,3 +12,5 @@ Completed Labs for Christopher Caulfield
 2. [Christopher's Lab 2](https://github.com/ctcaulfield/Interactive-Lab-Hub/tree/master/labs/lab2)
 3. [Christopher's Lab 3](https://github.com/ctcaulfield/Interactive-Lab-Hub/tree/master/labs/lab3)
 4. [Christopher's Lab 4](https://github.com/ctcaulfield/Interactive-Lab-Hub/tree/master/labs/lab4)
+5. [Christopher's Lab 5](https://github.com/ctcaulfield/Interactive-Lab-Hub/tree/master/labs/lab5)
+
