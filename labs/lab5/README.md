@@ -83,4 +83,8 @@ void loop()
 <img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/IMG_6187.jpeg">
 
 1. A video of your useless box in action.
-https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/IMG_6172.mov
+https://youtu.be/xdUEP1P1jTs
+
+## Learning Experience
+
+Unfortunately, shortly after recording the video above, the motor broke. Heart breakening because I could not successfully capture a video of it in the box. From this experience, I learned prototypes may not last long or break down easy! This is good to keep in mind if I were to ever create physical prototypes for a client. I would want to make more than one in case one of them breaks at the wrong time.
