@@ -80,7 +80,7 @@ void loop()
 <img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/bop.jpeg">
 
 1. At least one photo of your useless box taken in the MakerLab's Portable Photo Studio (or somewhere else, but of similar quality).
-<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/IMG_6187.jpeg">
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/IMG_6187.png">
 
 1. A video of your useless box in action.
 https://youtu.be/xdUEP1P1jTs
