@@ -3,7 +3,7 @@
 ## 3D Printing
 
 **Printed Part**
-<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/bop.jpeg">
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/IMG_6189.jpeg">
 
 ## Laser Cutting
 
@@ -76,9 +76,8 @@ void loop()
 }
 ```
 
-
 1. `.stl` or `.svg` files for your "bopper" — if you use some other technique, include the respective supporting material.
-<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/output1.png">
+<img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/bop.jpeg">
 
 1. At least one photo of your useless box taken in the MakerLab's Portable Photo Studio (or somewhere else, but of similar quality).
 <img src="https://github.com/ctcaulfield/Interactive-Lab-Hub/blob/master/labs/lab5/media/IMG_6187.jpeg">
