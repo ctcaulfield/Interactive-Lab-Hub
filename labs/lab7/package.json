@@ -1,0 +1,25 @@
+{
+  "name": "distant-pictures",
+  "version": "0.9.0",
+  "description": "Distant webcamera controll over a website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAR-Lab/distant-pictures.git"
+  },
+  "author": "David Goedicke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FAR-Lab/distant-pictures/issues"
+  },
+  "homepage": "https://github.com/FAR-Lab/distant-pictures#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "serialport": "^6.0.4",
+    "socket.io": "^2.0.4",
+    "node-webcam": "^0.4.3"
+  }
+}
