@@ -1,6 +1,6 @@
 # Video Doorbell, Lab 7
 
-*A lab report by John Q. Student*
+*A lab report by Christopher Caulfield*
 
 ### In This Report
 
