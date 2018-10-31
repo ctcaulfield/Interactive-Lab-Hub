@@ -1,5 +1,5 @@
 # Final-Project
-2. [Final Project](https://github.com/ctcaulfield/funlights)
+[Final Project](https://github.com/ctcaulfield/funlights)
 
 # Interactive-Lab-Hub
 Completed Pre-Labs for Christopher Caulfield
